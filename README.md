@@ -47,7 +47,7 @@ dos seus potenciais usuários!
 - Devem escolher qual problema ou necessidades estão resolvendo com o
 produto que estão desenhando e desenvolvendo.
 - Devem utilizar os dados da API de [OMDB](http://www.omdbapi.com/) (The Open
-Movie Database) com [Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API)
+Movie Database) ou [TMDB](https://developer.themoviedb.org/docs)com [Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API)
 ou qualquer outra API que encontrem.
 - Pensem em _test driven development_ no momento de programar a
 solução. Terão que escrever os testes unitários, aproveitem a oportunidade
