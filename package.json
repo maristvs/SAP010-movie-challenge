@@ -1,0 +1,28 @@
+{
+  "name": "sap010-movie-challenge",
+  "version": "1.0.0",
+  "description": "app web desenvolvido para exibir informações de filmes usando a API OMDB",
+  "main": "index.js",
+  "scripts": {
+    "test":  "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maristvs/SAP010-movie-challenge.git"
+  },
+  "keywords": [
+    "filmes",
+    "API",
+    "OMDB",
+    "JavaScript"
+  ],
+  "author": "stvsmari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maristvs/SAP010-movie-challenge/issues"
+  },
+  "homepage": "https://github.com/maristvs/SAP010-movie-challenge#readme",
+  "devDependencies": {
+    "eslint": "^8.48.0"
+  }
+}
