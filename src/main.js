@@ -9,7 +9,7 @@ searchButton.addEventListener('click', searchMovies);
 function searchMovies() {
   const searchTerm = searchInput.value;
 
-  fetch(`https://www.omdbapi.com/?apikey=YOUR_API_KEY&s=${searchTerm}`)
+  fetch(`https://www.omdbapi.com/?apikey=1e75eb9f&s=${searchTerm}`)
     .then(response => response.json())
     .then(data => {
       if (data.Search) {
