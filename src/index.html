@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>What to Watch</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>What to Watch?</h1>
-        <input type="text" id="searchInput" placeholder="Buscar filmes">
-        <button id="searchButton">Buscar</button>
-      </header>
+        <div>
+            <h1>Filmes e Séries Populares</h1>
+          </div>
+          <div class="movie-container" id="movie-container"></div>
+    </header>
       <main id="movieList"></main>
-      <script type="module" src="main.js"></script>
+      <script type="module" src="request.js"></script>
 </body>
 </html>
