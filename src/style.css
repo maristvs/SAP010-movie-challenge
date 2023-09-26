@@ -1,4 +1,17 @@
 /* Estilos para o contêiner dos cartões */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(./img/bgmc.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  /*overflow: hidden;*/
+ 
+}
 .movie-container {
     display: flex;
     flex-wrap: wrap;
@@ -7,11 +20,12 @@
 
   /* Estilos para os cartões */
   .movie-card {
-    flex: 0 0 calc(33.33% - 20px);
+    flex: 0 0 calc(23.33% - 20px);
     margin: 10px;
-    border: 1px solid #ccc;
+    background-color: #cccccc93;
     padding: 10px;
     box-sizing: border-box;
+    
   }
   .movie-card img {
     max-width: 100%;
@@ -20,7 +34,7 @@
 
   /* Estilos para a barra de navegação */
   .navbar {
-    background-color: #333;
+    background-color: #3333339f;
     overflow: hidden;
   }
 
